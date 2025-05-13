@@ -111,9 +111,14 @@
         </main>
         
         <footer>
-            <p style="color: #86868b;">&copy; 2025 Travel Planner. By Tarun Sunil.</p>
+            <p style="color: #86868b;">&copy; 2025 Travel Planner. All rights reserved.</p>
         </footer>
     </div>
     <script src="{{ url_for('static', filename='app.js') }}"></script>
+<!-- Add this before closing </body> tag -->
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
